@@ -14,7 +14,7 @@
     <div v-if="settings.ShowDropDown" class="right-menu">
       <el-dropdown trigger="click" size="medium">
         <div class="avatar-wrapper">
-          <img src="https://github.jzfai.top/file/images/nav-right-logo.gif" class="user-avatar" />
+          <img src="https://avatars.githubusercontent.com/u/22397800?s=400&v=4" class="user-avatar" />
           <CaretBottom style="width: 1em; height: 1em; margin-left: 4px" />
         </div>
         <template #dropdown>
@@ -87,8 +87,8 @@ const loginOut = () => {
 
   .user-avatar {
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 10px;
   }
 

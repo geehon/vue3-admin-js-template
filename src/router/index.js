@@ -38,7 +38,7 @@ export const constantRoutes = [
         name: 'Dashboard',
         component: () => import('@/views/dashboard/index.vue'),
         //using el svg icon, the elSvgIcon first when at the same time using elSvgIcon and icon
-        meta: { title: 'Dashboard', elSvgIcon: 'Fold' }
+        meta: { title: '仪表面板', elSvgIcon: 'Fold' }
       }
     ]
   },
@@ -50,7 +50,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/setting-switch'),
         name: 'SettingSwitch',
-        meta: { title: 'Setting Switch', icon: 'example' }
+        meta: { title: '外观设置', icon: 'example' }
       }
     ]
   },
@@ -58,7 +58,7 @@ export const constantRoutes = [
     path: '/error-log',
     component: Layout,
     redirect: '/error-log/list',
-    meta: { title: 'ErrorLog', icon: 'bug' },
+    meta: { title: '错误日志', icon: 'bug' },
     children: [
       {
         path: 'list',
@@ -185,7 +185,7 @@ export const constantRoutes = [
     redirect: '/nested/menu1',
     name: 'Nested',
     meta: {
-      title: 'Nested',
+      title: '嵌套菜单',
       icon: 'nested'
     },
     children: [
@@ -244,7 +244,7 @@ export const constantRoutes = [
       {
         component: () => {},
         path: 'https://github.com/jzfai/vue3-admin-ts.git',
-        meta: { title: 'External Link', icon: 'link' }
+        meta: { title: '外部链接', icon: 'link' }
       }
     ]
   }
@@ -261,7 +261,7 @@ export const asyncRoutes = [
     alwaysShow: true, // will always show the root menu
     name: 'Permission',
     meta: {
-      title: 'Permission',
+      title: '权限管理',
       icon: 'lock',
       roles: ['admin', 'editor'] // you can set roles in root nav
     },

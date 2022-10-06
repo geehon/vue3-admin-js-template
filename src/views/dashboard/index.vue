@@ -42,22 +42,21 @@
     <!--    <div class="mt-20px">this is var from vite.config.js define</div>-->
     <!--    <div>{{ showObj }},{{ showObjString }}</div>-->
     <!--    -->
-    <div class="mt-5px text-18px font600">unocss</div>
-    <!-- bg-#fff   -->
+    <!-- <div class="mt-5px text-18px font600">unocss</div>
     <div class="mb-40px w-900px h-10px text-16px">
       <div>
         you can look
         <el-link class="text-red" href="https://uno.antfu.me/" target="_blank">https://uno.antfu.me/</el-link>
         to search you need such as "margin-left:10px" and then get the sortcut(ml-10px)
       </div>
-    </div>
+    </div> -->
 
-    <div class="mt-3px mb1">
+    <!-- <div class="mt-3px mb1">
       <div class="mb-1px">### How to migrate</div>
       <div class="mb-1px">See how to migrate from **ElementUI** to **Element Plus** in our dedicated discussion:</div>
       <div class="mb-1px">- For English: [#5658](https://github.com/element-plus/element-plus/discussions/5658)</div>
       <div class="mb-1px">- 简体中文: [#5657](https://github.com/element-plus/element-plus/discussions/5657)</div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup>
